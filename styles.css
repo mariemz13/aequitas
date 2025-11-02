@@ -1,0 +1,156 @@
+/* ====== Global Styles ====== */
+body {
+    font-family: 'Courier Prime', monospace; /* typewriter font */
+    background: linear-gradient(135deg, #9B1B30, #C49E6C, #222222); /* cherry red → gold → black */
+    color: #CCCCCC; /* gray text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Headers / Titles */
+.cursive, h1 {
+    font-family: 'Courier Prime', monospace;
+    font-size: 4rem; /* bigger */
+    color: #CCCCCC; /* gray on top */
+    text-align: center;
+    margin-top: 2rem;
+    text-shadow: 2px 2px #000000; /* subtle shadow for contrast */
+}
+
+.tagline {
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 3rem;
+    color: #EEEEEE;
+    text-shadow: 1px 1px #000000;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background-color: #222222; /* black sidebar */
+    border-right: 3px solid #C49E6C; /* gold border */
+    padding: 1rem;
+}
+
+.sidebar h2 {
+    font-family: 'Courier Prime', monospace;
+    color: #CCCCCC;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.sidebar nav a {
+    display: block;
+    margin: 1.2rem 0;
+    text-decoration: none;
+    color: #CCCCCC;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sidebar nav a:hover {
+    color: #C49E6C; /* gold hover */
+}
+
+/* Main Content */
+main {
+    margin-left: 240px;
+    padding: 2.5rem;
+}
+
+/* Sections */
+section {
+    margin-bottom: 4rem;
+}
+
+/* Mission Section */
+.mission {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.mission img {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid #C49E6C; /* gold border around image */
+}
+
+/* Recent Essays */
+.essay-bar {
+    display: flex;
+    overflow-x: auto;
+    gap: 1.5rem;
+}
+
+.essay-card {
+    min-width: 180px;
+    background-color: #222222; /* black cards */
+    border: 2px solid #C49E6C; /* gold border */
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #CCCCCC;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.essay-card:hover {
+    transform: translateY(-5px);
+    background-color: #9B1B30; /* cherry red hover */
+}
+
+/* Buttons */
+.submit-button {
+    display: inline-block;
+    padding: 1.2rem 2.5rem;
+    background-color: #C49E6C; /* gold */
+    color: #222222; /* dark text for contrast */
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #9B1B30; /* cherry red hover */
+    color: #FFFFFF;
+}
+
+/* Headings */
+h2 {
+    color: #CCCCCC;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px #000000;
+}
+
+/* Typewriter text for essays / content */
+.typewriter {
+    font-family: 'Courier Prime', monospace;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    color: #CCCCCC;
+}
+
+/* Links inside main content */
+a {
+    color: #C49E6C; /* gold links */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #9B1B30; /* cherry red on hover */
+}
