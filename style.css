@@ -1,0 +1,83 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #FAF5E6; /* beige */
+  color: #222;
+  margin: 0;
+}
+
+.cursive {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: #C49E6C; /* gold */
+  text-align: center;
+}
+
+.tagline {
+  text-align: center;
+  font-style: italic;
+  color: #9B1B30; /* cherry red */
+  margin-bottom: 2rem;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #FAF5E6;
+  border-right: 2px solid #C49E6C;
+  padding: 1rem;
+}
+
+.sidebar h2 {
+  font-family: 'Great Vibes', cursive;
+  color: #222;
+  text-align: center;
+}
+
+.sidebar nav a {
+  display: block;
+  margin: 1rem 0;
+  text-decoration: none;
+  color: #666;
+}
+
+.sidebar nav a:hover {
+  color: #9B1B30; /* cherry red hover */
+}
+
+main {
+  margin-left: 220px;
+  padding: 2rem;
+}
+
+.mission {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.mission img {
+  width: 200px;
+  height: auto;
+}
+
+.recent-essays {
+  margin-top: 2rem;
+}
+
+.essay-bar {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+}
+
+.essay-card {
+  min-width: 150px;
+  background-color: #FFFFFF;
+  border: 2px solid #C49E6C;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
